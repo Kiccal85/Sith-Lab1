@@ -22,7 +22,7 @@ terraform {
 # AWS Provider configuration
 # This tells Terraform how to connect to AWS
 provider "aws" {
-  region = "us-east-2"
+  region = "us-east-1"
   profile = "default"
 }
 
@@ -30,7 +30,7 @@ provider "aws" {
 variable "availability_zones" {
   description = "List of availability zones"
   type        = list
-  default     = ["us-east-2a", "us-east-2b"]
+  default     = ["us-east-1a", "us-east-1b"]
 }
 
   # # Default tags are applied to all resources created by this provider
