@@ -26,7 +26,7 @@ provider "aws" {
   profile = "default"
 }
 
-#
+# TODO: student sets multi_az / backups / monitoring as stretch goals
 variable "availability_zones" {
   description = "List of availability zones"
   type        = list
