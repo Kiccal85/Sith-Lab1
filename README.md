@@ -48,3 +48,13 @@ This causes the RDS database instance to have a Master and a standby database wi
 
 Behind the scenes, RDS takes a snapshot of the main database and restores it into a new standby database. Once restored, synchronization is established between the Master and standby databases. The standby catches up to the Master, completing the Multi AZ setup.
 
+Notes:
+
+RDS creates its own subnet groups.
+Need to attach to a VPC 
+EC2 coonection possible
+CloudWatch created automatically for monitoring. Monitoring type- Database Insights- Standard
+Multi AZ enabled
+Automated Backups enabled with Backup Target (US East (N. Virginia))
+Snapshots enabled
+Storage Autoscaling Disabled
