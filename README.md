@@ -1,6 +1,6 @@
 Amazon RDS (Relational Database Service) is its own Database Instance managed by AWS, and separate from Amazon Elastic Cloud Compute (EC2). You are allowed to connect to and EC2 but RDS is a fully managed service that provides many features beyond hosting a database. 
 
-Features:
+Features:Practice
 
 -Fully automated provisioning of the database.
 -Automated patching of the underlying operating system.
